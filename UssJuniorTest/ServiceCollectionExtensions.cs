@@ -11,5 +11,7 @@ public static class ServiceCollectionExtensions
 
         services.AddScoped<CarRepository>();
         services.AddScoped<PersonRepository>();
+
+        services.AddControllersWithViews();
     }
 }
